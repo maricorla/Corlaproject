@@ -1,0 +1,55 @@
+import java.util.Scanner;
+
+public class Application {
+
+	public static void main(String[] args) {
+	String name;
+	int age;
+	Scanner input = new Scanner(System.in);
+	/*System.out.println("Entered your name: ");
+	name = input.next();
+	System.out.println("Entered your age: ");
+	age = input.nextInt();
+	System.out.println("Name: " + name + ",\n" + "Age: " + age);*/
+	
+	do {
+		System.out.println("Entered your name: ");
+	name = input.next();
+	System.out.println("Entered your age: ");
+	age = input.nextInt();
+	System.out.println("Name: " + name + ",\n" + "Age: " + age);
+	}
+	while(name != "mari",age != 18 ); // here or name or age
+	
+	System.out.println("Sei fortunato");
+	}
+
+}
+
+/* import java.util.Scanner;
+
+public class Application {
+
+	public static void main(String[] args) {
+	String name;
+	int age;
+	Scanner input = new Scanner(System.in);
+	/*System.out.println("Entered your name: ");
+	name = input.next();
+	System.out.println("Entered your age: ");
+	age = input.nextInt();
+	System.out.println("Name: " + name + ",\n" + "Age: " + age);*/
+	
+	do {
+		System.out.println("Entered your name: ");
+	name = input.next();
+	System.out.println("Entered your age: ");
+	age = input.nextInt();
+	System.out.println("Name: " + name + ",\n" + "Age: " + age);
+	}
+	while(age != 18); // here or name or age
+	System.out.println("Sei fortunato");
+	}
+
+}
+*/
