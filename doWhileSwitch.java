@@ -5,10 +5,11 @@ public class Application {
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);
+		String text;
 		
 		do {
 			System.out.print("Enter your command: ");
-			String text = input.nextLine();
+			text = input.nextLine();
 			
 			switch(text) {
 			 
@@ -22,7 +23,9 @@ public class Application {
 			default:
 				System.out.println("Command doesn't recognized");
 			}
-		} while (true);
+		} while (text.equals("start") || text.equals("stop"));
+		
+		System.out.print("Shut down system");
 
 	}
 }
