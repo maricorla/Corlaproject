@@ -1,0 +1,16 @@
+package test;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Open {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\МАРИНА\\eclipse-workspace\\SeTest\\lib\\chromrdriver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.tut.by/");
+		driver.quit();
+	}
+
+}
